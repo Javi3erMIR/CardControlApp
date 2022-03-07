@@ -14,8 +14,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="75dp"
-        android:text="Hello"
+        android:text="Click scan to start"
+        android:textAlignment="center"
         tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="51dp"
-        android:textAlignment="center"/>
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="68dp"
+        android:text="Scan" />
+
+    <EditText
+        android:id="@+id/txt_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_scan"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 </RelativeLayout>
