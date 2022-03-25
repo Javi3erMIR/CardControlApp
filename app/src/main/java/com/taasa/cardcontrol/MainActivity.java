@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         btn_v_reg.setOnClickListener(view -> {
             Toast.makeText(getApplicationContext(), "Visualizando registro...", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, ViewRegisters.class);
+            startActivity(intent);
         });
     }
 }

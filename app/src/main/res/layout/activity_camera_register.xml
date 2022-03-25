@@ -17,7 +17,8 @@
         android:text="Click scan to start"
         android:textAlignment="center"
         tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="51dp"
+        android:textSize="24dp"/>
 
     <Button
         android:id="@+id/btn_scan"
@@ -27,13 +28,16 @@
         android:layout_marginTop="68dp"
         android:text="Scan" />
 
-    <EditText
-        android:id="@+id/txt_code"
+    <TextView
+        android:id="@+id/tv_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_scan"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:text="TextView" />
+
 </RelativeLayout>
