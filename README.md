@@ -1,2 +1,2 @@
-# CardControlApp
-Manage and control of debit cards in a company
+# StudentsControlApp
+Manage and control of students
