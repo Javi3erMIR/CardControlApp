@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:961537488388:android:2d5c028f0e180e97862751",
+        "mobilesdk_app_id": "1:961537488388:android:84cc3c291c3102b3862751",
         "android_client_info": {
-          "package_name": "com.taasa.cardcontrol"
+          "package_name": "com.company.studentcontrol"
         }
       },
       "oauth_client": [
