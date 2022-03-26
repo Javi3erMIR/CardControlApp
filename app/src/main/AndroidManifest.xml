@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardControl">
         <activity
+            android:name=".AssistanceRegister"
+            android:exported="false" />
+        <activity
             android:name=".ViewRegisters"
             android:exported="false" />
         <activity

@@ -12,11 +12,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn_reg, btn_v_reg;
+    private Button btn_reg, btn_v_reg, btn_scan;
 
     private void initComponents(){
         btn_reg = findViewById(R.id.btn_reg);
         btn_v_reg = findViewById(R.id.btn_view_reg);
+        btn_scan = findViewById(R.id.btn_reg_assis);
     }
 
     @Override
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         btn_v_reg.setOnClickListener(view -> {
             Toast.makeText(getApplicationContext(), "Visualizando registro...", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, ViewRegisters.class);
+            startActivity(intent);
+        });
+
+        btn_scan.setOnClickListener(view -> {
+            Intent intent = new Intent(this, AssistanceRegister.class);
             startActivity(intent);
         });
     }
